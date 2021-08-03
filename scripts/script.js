@@ -41,6 +41,7 @@ function checkOut() {
 
   $("ol#summary").append("<li>Delivery Amount: <span class='summary'>" + totalAmount.delivery + "</span></li>");
   $("ol#summary").append("<li>Pizza Cost: <span class='summary'>" + totalAmount.cost + "</span></li>");
+  $("ol#summary").append("<li>Total Charge: <span class='summary'>" + totalAmount.total + "</span></li>");
   
 }
   
