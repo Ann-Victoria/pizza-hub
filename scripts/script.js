@@ -40,6 +40,8 @@ function checkOut() {
   var totalAmount = new order(pizzaSize, pizzaTopping, pizzaCrust,pizzaDelivery)
 
   $("ol#summary").append("<li>Delivery Amount: <span class='summary'>" + totalAmount.delivery + "</span></li>");
+  $("ol#summary").append("<li>Pizza Cost: <span class='summary'>" + totalAmount.cost + "</span></li>");
+  
 }
   
 
