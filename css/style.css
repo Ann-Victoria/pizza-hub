@@ -11,7 +11,7 @@ p {
   text-align: center;
 
 }
-.box-model {
+#box-model {
   margin: 50px;
   border: solid;
   padding-top: 30px;
@@ -25,4 +25,13 @@ p {
 }
 .image{
   margin: 10px;
+}
+heading {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: lightseagreen;
+}
+ul,ol {
+  font-family:serif;
+  font-style: italic;
 }
