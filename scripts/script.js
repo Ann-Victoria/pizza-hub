@@ -28,6 +28,7 @@ function myButton(event) {
     prompt('Enter location')
     alert('Your order will be delivered after check-out')
   }
+
   
 }
 
@@ -44,6 +45,7 @@ function checkOut() {
   $("ol#summary").append("<li>Total Charge: <span class='summary'>" + totalAmount.total + "</span></li>");
   
 }
+
   
 
    
